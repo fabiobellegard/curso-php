@@ -1,4 +1,9 @@
 <?php
-for ($i=1; $i <5 ; $i++) {
-echo "*\n**\n***\n****\n*****\n";
-}
+for ($j=0; $j < 4; $j++) {
+
+  $linha = "*";
+  for ($i=0; $i < 5; $i++) {
+    echo "$linha\n";
+    $linha .="*";
+  }
+}  
