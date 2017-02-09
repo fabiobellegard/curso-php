@@ -1,13 +1,13 @@
 <?php
 
-class Conta{
+Class Conta{
 
   public $numero;
   public $saldo;
-  public $contador;
+  public static $contador;
 
   public function __construct(){
-
-    $this->contador++;
+    self::$contador++;
   }
-} ?>
+}
+ ?>
